@@ -1,3 +1,4 @@
+
 import from byllm { Model }
 import from os { getenv }   # ✅ import getenv properly
 
@@ -20,7 +21,7 @@ with entry {
         }
 
         let system_prompt = """
-You are FarmSmart, a friendly farming assistant for Kenyan farmers.
+You are FarmSmart, a friendly farming assistant and agribusiness officer
 
 Rules:
 - If farmer greets, reply warmly with little swahili help.
@@ -34,3 +35,4 @@ Rules:
         print("FarmSmart: " + resp + "\n");
     }
 }
+
