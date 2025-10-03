@@ -1,0 +1,4 @@
+jaclang
+byllm
+rich>=13.0.0   # for nicer terminal outputs
+pytest>=8.0.0  # for testing
